@@ -29,6 +29,9 @@ TWITTER_API_KEY=YOUR_API_KEY
 TWITTER_API_SECRET_KEY=YOUR_API_SECRET_KEY
 ```
 In your code, access the API keys using `os.environ['TWITTER_API_KEY']` and `os.environ['TWITTER_API_SECRET_KEY']`.
+## Setting up the exams
+Go to Canvas Schedules, Select Activity Tentamen and download as CSV. Remove the first two rows with Title and Dates. Also change **Tillfälle/kurskod** to only **kurskod**
+
 ##Running the Bot
 To run the bot, execute the following command in your terminal:
 
